@@ -1,0 +1,47 @@
+button {
+  background-color: white; 
+  border: 0.1px solid rgb(209, 203, 203);
+  color: rgb(43, 156, 248);
+  padding: 5px 10px 5px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  }
+
+  .pbutton button {
+    padding: 10px 20px;
+    font-size: 12px;
+    border-radius: 15px;
+    background-color: rgb(233, 147, 86);
+    color: white;
+    }
+
+ 
+.thead {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tab, 
+td, th {  
+  /* border: 1px solid #ddd; */
+  border-bottom: 1px solid rgb(193, 202, 201);
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+}
+
+tr td:nth-child(2){
+  color: rgb(43, 156, 248);
+}
